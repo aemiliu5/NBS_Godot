@@ -1,0 +1,144 @@
+[gd_scene load_steps=34 format=3 uid="uid://cwt8xgru2dkiy"]
+
+[ext_resource type="Texture2D" uid="uid://u4iaxmsufslr" path="res://Sprites/Explosion/expl_06_0000.png" id="1_rmo2a"]
+[ext_resource type="Texture2D" uid="uid://c6ery0kwvvdjk" path="res://Sprites/Explosion/expl_06_0001.png" id="2_2id4b"]
+[ext_resource type="Texture2D" uid="uid://b2fe7qpba2vmm" path="res://Sprites/Explosion/expl_06_0002.png" id="3_7ohdq"]
+[ext_resource type="Texture2D" uid="uid://wmqsrlj7k4l7" path="res://Sprites/Explosion/expl_06_0003.png" id="4_nn74o"]
+[ext_resource type="Texture2D" uid="uid://dxringws7b7yo" path="res://Sprites/Explosion/expl_06_0004.png" id="5_iaqdh"]
+[ext_resource type="Texture2D" uid="uid://cqyuduct6q8kq" path="res://Sprites/Explosion/expl_06_0005.png" id="6_1sbed"]
+[ext_resource type="Texture2D" uid="uid://dq76cuf0tapex" path="res://Sprites/Explosion/expl_06_0006.png" id="7_s0e41"]
+[ext_resource type="Texture2D" uid="uid://ce82lhyxkcx65" path="res://Sprites/Explosion/expl_06_0007.png" id="8_veoe8"]
+[ext_resource type="Texture2D" uid="uid://12uh0jnev1m" path="res://Sprites/Explosion/expl_06_0008.png" id="9_0qkmp"]
+[ext_resource type="Texture2D" uid="uid://6tpeixp2jnsm" path="res://Sprites/Explosion/expl_06_0009.png" id="10_iptld"]
+[ext_resource type="Texture2D" uid="uid://cthlevla5oh0s" path="res://Sprites/Explosion/expl_06_0010.png" id="11_tnugh"]
+[ext_resource type="Texture2D" uid="uid://ba3btcoak108q" path="res://Sprites/Explosion/expl_06_0011.png" id="12_ifeo2"]
+[ext_resource type="Texture2D" uid="uid://0oh588guit4b" path="res://Sprites/Explosion/expl_06_0012.png" id="13_801d6"]
+[ext_resource type="Texture2D" uid="uid://ciuijwu2m6cqq" path="res://Sprites/Explosion/expl_06_0013.png" id="14_0f7u5"]
+[ext_resource type="Texture2D" uid="uid://bq48onlkj8807" path="res://Sprites/Explosion/expl_06_0014.png" id="15_ukqrc"]
+[ext_resource type="Texture2D" uid="uid://cbg5xrkswmoub" path="res://Sprites/Explosion/expl_06_0015.png" id="16_ioax7"]
+[ext_resource type="Texture2D" uid="uid://3pk0krs6l6s1" path="res://Sprites/Explosion/expl_06_0016.png" id="17_hxcd7"]
+[ext_resource type="Texture2D" uid="uid://cbtqyvcuqlmqr" path="res://Sprites/Explosion/expl_06_0017.png" id="18_5nagc"]
+[ext_resource type="Texture2D" uid="uid://caeq7g1vxpupo" path="res://Sprites/Explosion/expl_06_0018.png" id="19_vxyji"]
+[ext_resource type="Texture2D" uid="uid://sl6xbwekmvej" path="res://Sprites/Explosion/expl_06_0019.png" id="20_wwl8k"]
+[ext_resource type="Texture2D" uid="uid://dejvvgv2nfv4g" path="res://Sprites/Explosion/expl_06_0020.png" id="21_mbeqh"]
+[ext_resource type="Texture2D" uid="uid://ng7pu0a6bp2i" path="res://Sprites/Explosion/expl_06_0021.png" id="22_2aolj"]
+[ext_resource type="Texture2D" uid="uid://fhfi0i5gvjp1" path="res://Sprites/Explosion/expl_06_0022.png" id="23_bdy44"]
+[ext_resource type="Texture2D" uid="uid://dt1agbq3pagtq" path="res://Sprites/Explosion/expl_06_0023.png" id="24_f2r0x"]
+[ext_resource type="Texture2D" uid="uid://bth3nrn3eccyn" path="res://Sprites/Explosion/expl_06_0024.png" id="25_wpq3r"]
+[ext_resource type="Texture2D" uid="uid://cu4wsivk3ia1c" path="res://Sprites/Explosion/expl_06_0025.png" id="26_grsdb"]
+[ext_resource type="Texture2D" uid="uid://sxsonaar2m6j" path="res://Sprites/Explosion/expl_06_0026.png" id="27_rnka8"]
+[ext_resource type="Texture2D" uid="uid://b0cjelwnulse3" path="res://Sprites/Explosion/expl_06_0027.png" id="28_to37o"]
+[ext_resource type="Texture2D" uid="uid://c4gnblct8nsj" path="res://Sprites/Explosion/expl_06_0028.png" id="29_3q3qy"]
+[ext_resource type="Texture2D" uid="uid://dctdi45uao2i0" path="res://Sprites/Explosion/expl_06_0029.png" id="30_m261x"]
+[ext_resource type="Texture2D" uid="uid://cgx27c3btff2t" path="res://Sprites/Explosion/expl_06_0030.png" id="31_kwwif"]
+[ext_resource type="Texture2D" uid="uid://bustliq6cxwfj" path="res://Sprites/Explosion/expl_06_0031.png" id="32_yiqos"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mgx20"]
+resource_local_to_scene = true
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_rmo2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_2id4b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7ohdq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_nn74o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_iaqdh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_1sbed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_s0e41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_veoe8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_0qkmp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_iptld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_tnugh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ifeo2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_801d6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_0f7u5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ukqrc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ioax7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_hxcd7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_5nagc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_vxyji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_wwl8k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_mbeqh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_2aolj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_bdy44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_f2r0x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_wpq3r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_grsdb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_rnka8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_to37o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_3q3qy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_m261x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_kwwif")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_yiqos")
+}],
+"loop": false,
+"name": &"default",
+"speed": 48.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_mgx20")
+autoplay = "default"

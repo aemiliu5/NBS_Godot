@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://4ix5rx8geab7"]
+
+[ext_resource type="PhysicsMaterial" uid="uid://btb0vvxr4isaf" path="res://PhysicsMaterials/Enemy.tres" id="1_0fxy7"]
+[ext_resource type="Script" path="res://Scripts/Enemy.gd" id="1_cjbmu"]
+[ext_resource type="Texture2D" uid="uid://d1lkmymwcggcp" path="res://Sprites/Asteroids/Asteroids_256x256_008.png" id="2_que4w"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8waw0"]
+
+[node name="Enemy" type="RigidBody2D"]
+physics_material_override = ExtResource("1_0fxy7")
+gravity_scale = 0.0
+can_sleep = false
+lock_rotation = true
+freeze_mode = 1
+script = ExtResource("1_cjbmu")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_que4w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(5, 5)
+shape = SubResource("CircleShape2D_8waw0")

@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://d3edsb17gyykq"]
+
+[ext_resource type="Texture2D" uid="uid://chejheu3s4s0a" path="res://icon.svg" id="1_wuml6"]
+[ext_resource type="Script" path="res://Player.gd" id="2_vuhnj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hirxw"]
+
+[node name="Sprite2D" type="Sprite2D"]
+texture = ExtResource("1_wuml6")
+script = ExtResource("2_vuhnj")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="RigidBody2D" type="RigidBody2D" parent="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D/RigidBody2D"]
+shape = SubResource("RectangleShape2D_hirxw")

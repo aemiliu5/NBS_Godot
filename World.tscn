@@ -1,0 +1,64 @@
+[gd_scene load_steps=7 format=3 uid="uid://yt3hvwdmyb0j"]
+
+[ext_resource type="Texture2D" uid="uid://chejheu3s4s0a" path="res://icon.svg" id="1_c1m47"]
+[ext_resource type="Script" path="res://Scripts/GameManager.gd" id="1_rq0jb"]
+[ext_resource type="PackedScene" uid="uid://d3edsb17gyykq" path="res://Prefabs/Player.tscn" id="2_52r5p"]
+[ext_resource type="Script" path="res://Scripts/Timer.gd" id="3_14k1e"]
+[ext_resource type="Texture2D" uid="uid://cyl7dhevaxgu3" path="res://Sprites/1329766522.png.png" id="5_41pfd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xtksu"]
+size = Vector2(125.814, 127)
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_rq0jb")
+
+[node name="Top Floor Parent" type="Sprite2D" parent="."]
+position = Vector2(592, -68)
+scale = Vector2(15.08, 1)
+texture = ExtResource("1_c1m47")
+
+[node name="Top Floor" type="StaticBody2D" parent="Top Floor Parent"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Top Floor Parent/Top Floor"]
+position = Vector2(0.697674, -2.5)
+shape = SubResource("RectangleShape2D_xtksu")
+
+[node name="Bottom Floor Parent" type="Sprite2D" parent="."]
+position = Vector2(513, 787)
+scale = Vector2(13.56, 1)
+texture = ExtResource("1_c1m47")
+
+[node name="Bottom Floor" type="StaticBody2D" parent="Bottom Floor Parent"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bottom Floor Parent/Bottom Floor"]
+position = Vector2(0.697674, -2.5)
+shape = SubResource("RectangleShape2D_xtksu")
+
+[node name="Player" parent="." instance=ExtResource("2_52r5p")]
+position = Vector2(116, 229)
+upwardSpeed = 24
+downwardSpeed = 16
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Player"]
+offset_left = -154.0
+offset_top = -139.0
+offset_right = 148.0
+offset_bottom = -48.0
+bbcode_enabled = true
+text = "[font_size=48][center]0.00[/center][/font_size]"
+script = ExtResource("3_14k1e")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+z_index = -1
+texture_repeat = 2
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -29.02
+offset_top = -6.0
+offset_right = 1345.72
+offset_bottom = 733.895
+grow_vertical = 2
+texture = ExtResource("5_41pfd")
+expand_mode = 2
+stretch_mode = 1
